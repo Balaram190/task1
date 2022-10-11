@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+.mainConatiner {
+  margin: 76px 153px 0 197px;
+  padding: 19px;
+}
+
+.mainConatiner .mainWrappr {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -ms-grid-columns: (171px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 171px);
+  gap: 20px;
+}
+
+.mainConatiner .mainWrappr .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 171px;
+  width: 171px;
+  -webkit-box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
+          box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
+  color: #161616;
+}
+
+.mainConatiner .cardWrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.mainConatiner .cardWrapper .card {
+  width: 266px;
+  height: 171px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #828282;
+}
+
+.mainConatiner .cardWrapper .card .userProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainConatiner .cardWrapper .card .userProfile .img {
+  margin-right: 8px;
+  width: 40px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.mainConatiner .cardWrapper .card .userProfile .username {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.mainConatiner .cardWrapper .lastCard {
+  width: 266px;
+  height: 171px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #828282;
+  font-size: 12px;
+  color: #828282;
+}
+
+.mainConatiner .cardWrapper .lastCard .date {
+  margin-left: 16px;
+}
+
+.mainConatiner .cardWrapper .lastCard .time {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.mainConatiner .cardWrapper .bigCard {
+  width: 553px;
+  height: 171px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: 1px solid #828282;
+}
+
+.mainConatiner .cardWrapper .bigCard .content {
+  padding: 16px;
+}
+
+.mainConatiner .cardWrapper .bigCard .content h4 {
+  color: #161616;
+  font-size: 16px;
+  margin: 0;
+}
+
+.mainConatiner .cardWrapper .bigCard .content p {
+  color: #828282;
+  margin: 16px, 0;
+}
+
+.mainConatiner .cardWrapper .bigCard .content .date {
+  margin: 0;
+  margin-top: 27px;
+  text-align: end;
+  font-size: 12px;
+}
+
+.mainConatiner .gallery {
+  margin-top: 64px;
+}
+
+.mainConatiner .gallery h3,
+.mainConatiner .gallery p {
+  margin: 0;
+}
+
+.mainConatiner .gallery .galleryTitle {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainConatiner .gallery .galleryTitle .galleryHeading {
+  color: #161616;
+}
+
+.mainConatiner .gallery .galleryTitle .galleryPara {
+  color: #828282;
+}
+
+.mainConatiner .gallery .galleryImg {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 16px;
+}
+
+.mainConatiner .gallery .galleryImg img {
+  width: 100%;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mainConatiner .paragraphMain .paragraphTitle {
+  font-weight: 490;
+  font-size: 16px;
+}
+
+.mainConatiner .paragraphMain .paragraph {
+  color: #828282;
+  font-weight: 390;
+  font-size: 18px;
+}
+
+.mainConatiner .paragraphMain .paragraph .left-para {
+  width: 553px;
+}
+
+.mainConatiner .photoParagraph {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.mainConatiner .photoParagraph .sideImage {
+  height: 300px;
+  width: 457px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mainConatiner .photoParagraph .leftParagraph .heading {
+  text-align: left;
+  color: #161616;
+}
+
+.mainConatiner .photoParagraph .leftParagraph .paragraph {
+  margin-top: 24px;
+  color: #828282;
+}
+/*# sourceMappingURL=style.css.map */
